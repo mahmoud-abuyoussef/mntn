@@ -65,6 +65,8 @@ header {
   position: fixed;
   width: 100%;
   padding: 20px 0;
+  background-color: #0b1d26;
+  z-index: 9999;
 }
 header .container {
   display: flex;
@@ -78,7 +80,7 @@ header .container nav input {
   header nav {
     position: relative;
   }
-  header nav label img {
+  header nav label svg {
     cursor: pointer;
   }
   header nav input {
@@ -174,6 +176,14 @@ header .container nav input {
   left: -50px;
   font-size: 140px;
   color: rgb(255 255 255 / 0.4);
+}
+@media screen and (max-width: 876px) {
+  .article h2::before {
+    content: "";
+    position: absolute;
+    top: -175px;
+    left: -10px;
+  }
 }
 .article-1 h2::before {
   content: "01";
