@@ -1,7 +1,5 @@
 # MNTN
 
-## [Demo](https://mahmoud-abuyoussef.github.io/MNTN/)
-
 ## Tech Stack
 
 - ### Languages
